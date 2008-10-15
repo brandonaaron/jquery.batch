@@ -15,13 +15,22 @@ The batch plugin automatically creates plural versions of the getter methods wit
 This is a list of the pluralized core methods.
 
 * attrs
-* styles
-* offsets
-* widths
+* datas
 * heights
 * htmls
+* innerHeights
+* innerWidths
+* offsets
+* outerHeights
+* outerWidths
+* positions
+* scrollLefts
+* scrollTops
+* styles
 * texts
 * vals
+* widths
+
 
 The batch plugin also provides a way for you to register other plugins to be pluralized *(just adds an s)*.
 

@@ -28,6 +28,6 @@ $.batch = {
 	}
 };
 
-$.batch.registerPlugin( 'attr', ['css','styles'], 'offset', 'width', 'height', 'html', 'text', 'val' );
+$.batch.registerPlugin( 'attr', ['css','styles'], 'offset', 'position', 'scrollTop', 'scrollLeft', 'innerWidth', 'innerHeight', 'outerWidth', 'outerHeight', 'width', 'height', 'html', 'text', 'val', 'data' );
 
 })(jQuery);

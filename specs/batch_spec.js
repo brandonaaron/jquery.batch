@@ -3,7 +3,7 @@ Screw.Unit(function() {
 		it("should provide a version indicator", function() {
 			expect( jQuery.batch.version ).to_not( be_undefined );
 		});
-		$.each(['attr', ['css','styles'], 'offset', 'width', 'height', 'html', 'text', 'val'], function(index, method) {
+		$.each(['attr', ['css','styles'], 'offset', 'position', 'scrollTop', 'scrollLeft', 'innerWidth', 'innerHeight', 'outerWidth', 'outerHeight', 'width', 'height', 'html', 'text', 'val', 'data'], function(index, method) {
 			var current = method.constructor == Array ? method[0] : method, plural = method.constructor == Array ? method[1] : method+'s';
 			it("should provide a plural version of the core method " + current + " called " + plural, function() {
 				expect( jQuery.fn[plural] ).to_not( be_undefined );
