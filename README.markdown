@@ -53,6 +53,6 @@ This will use `myPluralizedPlugin` as the name, instead of `myPlugins`.
 
 ## License
 
-The batch plugin is dual licensed *(just like jQuery)* under the [MIT](http://www.opensource.org/licenses/mit-license.php) and [GPL](http://www.opensource.org/licenses/gpl-license.php) licenses.
+The batch plugin is licensed under the MIT License (LICENSE.txt).
 
-Copyright (c) 2008 [Brandon Aaron](http://brandonaaron.net)
+Copyright (c) 2010 [Brandon Aaron](http://brandonaaron.net)
