@@ -1,7 +1,7 @@
 /*! Copyright (c) 2010 Brandon Aaron (http://brandonaaron.net)
  * Licensed under the MIT License (LICENSE.txt).
  *
- * Version: 1.0.2
+ * Version: 1.0.3-pre
  */
 (function($){
 
@@ -15,7 +15,7 @@ $.fn.batch = function(method) {
 };
 
 $.batch = {
-    version: "1.0.2",
+    version: "1.0.3-pre",
     registerPlugin: function() {
         $.each(arguments, function(index, plugin) {
             var isArray   = $.isArray(plugin),
